@@ -7,7 +7,7 @@
 			<resource ref="anonymous"/>
 		</resources>
 	</route>
-	<route method="GET" url="/V1/ehab-parent-by-sku/:childSku">
+	<route method="GET" url="/V1/get-parent-by-sku/:childSku">
 		<service class="Ehab\Configurable\Api\ConfigurableManagementInterface"
 				 method="getParentByChildSku"/>
 		<resources>
